@@ -51,6 +51,7 @@ main .container .content {
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 4rem;
   margin-top: 0;
+  color: #01414e;
 }
 
 #about {
@@ -140,11 +141,11 @@ main .container .content {
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #01414e;
+  color: black;
 }
 
 #projects a:hover {
-  color: #00d9ff;
+  color: rgb(110, 110, 110);
 }
 
 #projects div {
