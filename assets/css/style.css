@@ -10,3 +10,200 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+header {
+  background-color: #01414e;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .container {
+  padding-inline: 8vw;
+  font-family: "Saira Extra Condensed", sans-serif;
+  line-height: 4rem;
+  color: white;
+}
+
+header .container .name {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+header .container .address {
+  font-size: 1.5rem;
+}
+
+main .container .content {
+  width: calc(100vw - 20vw);
+  padding-inline: 8vw;
+}
+
+.content article {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content article .title {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+#about {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+#about .sosmed-icon {
+  display: flex;
+  margin-top: 3rem;
+  column-gap: 1rem;
+}
+
+#about .sosmed-icon a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #01414e;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .sosmed-icon a:hover {
+  background-color: #00d9ff;
+}
+
+#about .sosmed-icon a i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#education > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+#education .instansi {
+  display: block;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+#education .instansi h1,
+#education .instansi p {
+  margin-block: 0;
+}
+
+#education .instansi p {
+  color: rgb(141, 141, 141);
+}
+
+#education p {
+  margin-block: 0;
+  color: #01414e;
+}
+
+#skills .split {
+  display: flex;
+  column-gap: 5rem;
+}
+
+#skills .split h1 {
+  margin-block: 0;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 2.3rem;
+}
+
+#skills .split ul {
+  list-style-type: square;
+  padding-inline: 20px;
+  line-height: 2rem;
+}
+
+#projects a {
+  text-decoration: none;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #01414e;
+}
+
+#projects a:hover {
+  color: #00d9ff;
+}
+
+#projects div {
+  margin-bottom: 1rem;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #3a5055;
+  width: 20vw;
+  height: 100vh;
+}
+
+aside .my-photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+#my-photo {
+  width: 150px;
+  border-radius: 100px;
+  border: solid;
+  border-color: rgb(194, 194, 194);
+  border-width: 0.5rem;
+}
+
+aside .navbar ul {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding-inline: 0;
+  line-height: 3rem;
+}
+
+aside .nav-list a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(194, 194, 194);
+}
+
+aside .nav-list a:hover {
+  color: white;
+}
+
+.nav-list a.active {
+  color: white;
+}
+
+footer {
+  width: calc(100vw - 20vw);
+  background-color: #01414e;
+  color: white;
+  padding-block: 1.5rem;
+  display: flex;
+  justify-content: center;
+}

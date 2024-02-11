@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header id="about">
+    <header id="up">
         <div class="container">
             <div class="name">KHAIRUL ANAM</div>
             <div class="address">PAKAMBAN DAYA PRAGAAN SUMENEP</div>
@@ -33,60 +33,50 @@
     <main>
         <div class="container">
             <div class="content">
-                <article>
-                    <p class="description">Lulusan S1 Teknik Informaka yang antusias, pantang menyerah, dan selalu
-                        termovasi untuk mencoba
-                        hal-hal baru. Memiliki
-                        ketertarikan nggi dalam dunia digital.</p>
+                <article id="about">
+                    <p class="description">Lulusan S1 Teknik Informatika yang antusias, pantang menyerah, dan selalu
+                        termovasi untuk mencoba hal-hal baru. Memiliki ketertarikan nggi dalam dunia digital.</p>
 
-                    <ul class="sosmed-icon">
-                        <li>
-                            <a href="https://www.instagram.com/eenk_anam/">
-                                <i class="fa-brands fa-square-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/khairulanam123/">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:anamkhairul903@gmail.com">
-                                <i class="fa-solid fa-envelope"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Irull46/">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="sosmed-icon">
+                        <a href="https://www.instagram.com/eenk_anam/">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/khairulanam123/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:anamkhairul903@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/Irull46/">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
                 </article>
 
                 <article id="education">
                     <h1 class="title">EDUCATION</h1>
                     <div>
                         <div class="instansi">
-                            <div>UNIVERSITAS ISLAM MADURA</div>
-                            <div>S1 TEKNIK INFORMATIKA</div>
+                            <h1>UNIVERSITAS ISLAM MADURA</h1>
+                            <p>S1 TEKNIK INFORMATIKA</p>
                         </div>
-                        <div class="tanggal">Agustus 2019 - Mei 2024</div>
+                        <p class="tanggal">Agustus 2019 - Mei 2024</p>
                     </div>
 
                     <div>
                         <div class="instansi">
-                            <div>MA. DARUL IHSAN</div>
-                            <div>IPS</div>
+                            <h1>MA. DARUL IHSAN</h1>
+                            <p>IPS</p>
                         </div>
-                        <div class="tanggal">Agustus 2016 - Mei 2019</div>
+                        <p class="tanggal">Agustus 2016 - Mei 2019</p>
                     </div>
 
                     <div>
                         <div class="instansi">
-                            <div>MTs. DARUL IHSAN</div>
-                            <div>IPS</div>
+                            <h1>MTs. DARUL IHSAN</h1>
+                            <p>IPS</p>
                         </div>
-                        <div class="tanggal">Agustus 2013 - Mei 2016</div>
+                        <p class="tanggal">Agustus 2013 - Mei 2016</p>
                     </div>
                 </article>
 
@@ -94,7 +84,7 @@
                     <h1 class="title">SKILLS</h1>
                     <div class="split">
                         <div class="bahasa-pemrograman">
-                            <h3>BAHASA PEMROGRAMAN</h3>
+                            <h1>BAHASA PEMROGRAMAN</h1>
                             <ul>
                                 <li>PHP</li>
                                 <li>Javascript</li>
@@ -104,12 +94,22 @@
                         </div>
 
                         <div class="framework">
-                            <h3>FRAMEWORK</h3>
+                            <h1>FRAMEWORK</h1>
                             <ul>
                                 <li>Laravel</li>
                                 <li>Codeigniter</li>
                                 <li>React Native</li>
                                 <li>Django</li>
+                            </ul>
+                        </div>
+
+                        <div class="lainnya">
+                            <h1>LAINNYA</h1>
+                            <ul>
+                                <li>Git</li>
+                                <li>Github</li>
+                                <li>Gitlab</li>
+                                <li>VS. Code</li>
                             </ul>
                         </div>
                     </div>
@@ -142,9 +142,9 @@
                     <img src="assets/img/saya.png" alt="Khairul Anam" id="my-photo">
                 </div>
 
-                <nav>
-                    <ul>
-                        <li><a href="#about">ABOUT</a></li>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li><a href="#up">ABOUT</a></li>
                         <li><a href="#education">EDUCATION</a></li>
                         <li><a href="#skills">SKILLS</a></li>
                         <li><a href="#projects">PROJECTS</a></li>
@@ -157,6 +157,8 @@
     <footer>
         <div>&copy; Copyright <strong>Khairul Anam</strong>. All Rights Reserved</div>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
