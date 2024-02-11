@@ -99,7 +99,9 @@ main .container .content {
 }
 
 #education .instansi {
-  display: block;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -175,7 +177,7 @@ aside .my-photo {
   border-width: 0.5rem;
 }
 
-aside .navbar ul {
+aside .nav-list {
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
@@ -207,4 +209,116 @@ footer {
   padding-block: 1.5rem;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+  header {
+    height: 30vh;
+  }
+
+  header .container {
+    line-height: 2.4rem;
+  }
+
+  header .container .name {
+    font-size: 3rem;
+  }
+
+  main .container .content {
+    width: calc(100vw - 30vw);
+    padding-inline: 8vw;
+  }
+
+  #about .sosmed-icon a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #about .sosmed-icon a i {
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  #skills .split {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    width: 25vw;
+  }
+
+  aside #my-photo {
+    margin-top: 20px;
+    width: 120px;
+    border-width: 0.3rem;
+  }
+
+  aside .nav-list a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 35vh;
+  }
+
+  header .container {
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .container .name {
+    margin-top: 0.7rem;
+    font-size: 5rem;
+  }
+
+  main .container .content {
+    width: 100vw;
+    padding-inline: 8vw;
+  }
+
+  .content article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+
+  .content article .title {
+    margin-bottom: 1rem;
+  }
+
+  #about {
+    height: 100%;
+    padding-block: 4rem;
+  }
+
+  #about .sosmed-icon {
+    margin-top: 2rem;
+  }
+
+  #education div {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  #skills .split {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  aside {
+    display: none;
+  }
+
+  footer {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 575px) {
 }
