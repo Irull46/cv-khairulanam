@@ -50,7 +50,7 @@ main .container .content {
 .content article .title {
   font-family: "Saira Extra Condensed", sans-serif;
   font-size: 4rem;
-  margin-top: 0;
+  margin: 0 0 30px;
   color: #01414e;
 }
 
@@ -103,7 +103,7 @@ main .container .content {
   flex-flow: column nowrap;
   flex: 1;
   font-family: "Saira Extra Condensed", sans-serif;
-  font-size: 1.5rem;
+  font-size: 21.4px;
   line-height: 2rem;
 }
 
@@ -129,25 +129,27 @@ main .container .content {
 #skills .split h1 {
   margin-block: 0;
   font-family: "Saira Extra Condensed", sans-serif;
-  font-size: 2.3rem;
+  font-size: 32px;
 }
 
 #skills .split ul {
   list-style-type: square;
   padding-inline: 20px;
   line-height: 2rem;
+  margin: 0 0 18px;
+}
+
+#projects h2 {
+  text-decoration: none;
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
 }
 
 #projects a {
   text-decoration: none;
-  font-family: "Saira Extra Condensed", sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: black;
-}
-
-#projects a:hover {
-  color: rgb(110, 110, 110);
 }
 
 #projects div {
