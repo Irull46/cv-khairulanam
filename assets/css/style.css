@@ -323,7 +323,7 @@ footer {
 
 @media screen and (max-width: 575px) {
   header {
-    height: 30vh;
+    height: 25vh;
   }
 
   header .container {
@@ -336,6 +336,10 @@ footer {
 
   header .container .address {
     font-size: 1.5rem;
+  }
+
+  article#about {
+    padding-top: 50px;
   }
 
   #about {
